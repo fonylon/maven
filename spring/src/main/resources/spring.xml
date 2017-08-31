@@ -47,5 +47,5 @@
             <value>${jdbc.acquireRetryAttempts}</value>
         </property>
     </bean>
-
+    <bean id="demo" class="pro.yf.bean.Demo"></bean>
 </beans>
