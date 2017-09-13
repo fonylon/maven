@@ -1,5 +1,7 @@
 package pro.yf.bean;
 
+import pro.yf.util.GlobalUtils;
+
 /**
  * 功能：
  *
@@ -8,5 +10,6 @@ package pro.yf.bean;
 public class Demo {
     public void doDemo() {
         System.out.println("demo done");
+        GlobalUtils.LOGGER.error("error");
     }
 }

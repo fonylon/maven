@@ -11,12 +11,12 @@ import pro.yf.bean.Demo;
  *
  * @author 天启 on 2017/8/31
  */
-public class BeanFactoryTest {
+public class BeanFactoryTest{
 
     @Test
     public void init(){
         BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource("spring-test.xml"));
-        Demo demo = (Demo) beanFactory.getBean("demo");
+        Demo demo = (Demo)beanFactory.getBean("demo");
         demo.doDemo();
     }
 }
